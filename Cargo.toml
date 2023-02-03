@@ -2,6 +2,10 @@
 name = "lily"
 version = "0.0.0"
 edition = "2021"
+authors = [ "Avery R. <contact@nekodjin.org>" ]
 rust-version = "1.65.0"
 
 [dependencies]
+chumsky = "0.8.0"
+clap = { version = "4.1.4", features = ["derive"] }
+logos = "0.12.1"
